@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+
+:root {
+	--font-sans: 'Roboto Variable', sans-serif;
+	--font-mono: 'Roboto Mono Variable', monospace;
+}
