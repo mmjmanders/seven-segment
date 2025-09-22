@@ -54,12 +54,20 @@
 	</g>
 </svg>
 
-<style>
+<style lang="scss">
 	.off {
 		fill: var(--color-neutral-400);
+
+		@media (prefers-color-scheme: dark) {
+			fill: var(--color-neutral-300);
+		}
 	}
 
 	.on {
 		fill: var(--color-red-600);
+
+		@media (prefers-color-scheme: dark) {
+			fill: var(--color-red-400);
+		}
 	}
 </style>
