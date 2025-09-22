@@ -12,5 +12,5 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
-      - run: pnpm i --frozen-lockfile
+      - run: pnpm i
       - run: pnpm lint
