@@ -5,7 +5,7 @@
 
 <div class="mx-auto w-full lg:w-1/2 flex flex-col items-center gap-y-8">
 	<Header />
-	<main>
+	<main class="w-32">
 		<Segment />
 	</main>
 </div>
