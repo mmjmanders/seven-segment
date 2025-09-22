@@ -15,6 +15,7 @@ jobs:
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
       - run: pnpm i
+      - run: echo "VITE_BUILD_SHA=${GITHUB_SHA:0:7}" | tee -a .env.local
       - run: pnpm build
       - uses: actions/upload-pages-artifact@v4
         with:
