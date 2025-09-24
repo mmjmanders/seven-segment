@@ -59,7 +59,7 @@
 		fill: var(--color-neutral-400);
 
 		@media (prefers-color-scheme: dark) {
-			fill: var(--color-neutral-300);
+			fill: var(--color-neutral-100);
 		}
 	}
 

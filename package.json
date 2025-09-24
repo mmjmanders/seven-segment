@@ -14,10 +14,10 @@
 		"lint": "prettier --check . && eslint ."
 	},
 	"devDependencies": {
-		"@eslint/compat": "^1.3.2",
+		"@eslint/compat": "^1.4.0",
 		"@eslint/js": "^9.36.0",
 		"@sveltejs/adapter-static": "^3.0.9",
-		"@sveltejs/kit": "^2.42.2",
+		"@sveltejs/kit": "^2.43.2",
 		"@sveltejs/vite-plugin-svelte": "^6.2.0",
 		"@tailwindcss/vite": "^4.1.13",
 		"@types/node": "^22.18.6",
@@ -29,14 +29,14 @@
 		"lint-staged": "^16.2.0",
 		"prettier": "^3.6.2",
 		"prettier-plugin-svelte": "^3.4.0",
-		"sass-embedded": "^1.93.0",
-		"svelte": "^5.39.4",
+		"sass-embedded": "^1.93.2",
+		"svelte": "^5.39.5",
 		"svelte-check": "^4.3.2",
 		"typescript": "^5.9.2",
-		"typescript-eslint": "^8.44.0",
+		"typescript-eslint": "^8.44.1",
 		"vite": "^7.1.7"
 	},
-	"packageManager": "pnpm@10.17.0+sha512.fce8a3dd29a4ed2ec566fb53efbb04d8c44a0f05bc6f24a73046910fb9c3ce7afa35a0980500668fa3573345bd644644fa98338fa168235c80f4aa17aa17fbef",
+	"packageManager": "pnpm@10.17.1+sha512.17c560fca4867ae9473a3899ad84a88334914f379be46d455cbf92e5cf4b39d34985d452d2583baf19967fa76cb5c17bc9e245529d0b98745721aa7200ecaf7a",
 	"engines": {
 		"node": "^20.0.0 || ^22.0.0"
 	},
