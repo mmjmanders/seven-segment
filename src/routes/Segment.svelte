@@ -6,7 +6,10 @@
 </script>
 
 <div class="flex flex-col gap-y-8">
-	<select bind:value={nrSegments} class="p-2 border border-neutral-400 rounded-md">
+	<select
+		bind:value={nrSegments}
+		class="p-2 border border-neutral-400 rounded-md text-neutral-900 dark:text-neutral-50"
+	>
 		<option value="7">7</option>
 		<option value="14">14</option>
 	</select>
@@ -16,7 +19,7 @@
 		inputmode="numeric"
 		min="0"
 		max="9"
-		class="p-2 border border-neutral-400 rounded-md outline-none focus:outline-1 focus:outline-sky-400 focus:border-sky-400 focus:outline-double"
+		class="p-2 border border-neutral-400 rounded-md outline-none focus:outline-1 focus:outline-sky-400 focus:border-sky-400 focus:outline-double text-neutral-900 dark:text-neutral-50"
 	/>
 	<Number
 		input={entered != undefined ? Math.floor(entered / (entered >= 10 ? 10 : 1)) : undefined}

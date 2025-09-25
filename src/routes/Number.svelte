@@ -133,7 +133,7 @@
 
 <style lang="scss">
 	.svg-background {
-		color: var(--color-white);
+		color: var(--color-neutral-50);
 
 		@media (prefers-color-scheme: dark) {
 			color: var(--color-neutral-900);
@@ -142,6 +142,7 @@
 
 	.off {
 		fill: var(--color-neutral-400);
+		fill-opacity: 0.25;
 
 		@media (prefers-color-scheme: dark) {
 			fill: var(--color-neutral-100);
